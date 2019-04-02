@@ -76,6 +76,3 @@ class OpenApiWrapper(ForeignDataWrapper):
             for column_name in self.columns:
                 line[column_name] = item[column_name]
             yield line
-
-
-~
